@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <div id="title">
+            <h1>The American Outback</h1>
+        </div>
+        <div id="navigation">
+            <hr />
+                <p>
+                    <a href="index.html">Home</a>
+                    <a href="menu.html" target="_blank">Menu</a>
+                    <a href="contactUs.html" target="_blank">Contact Us</a>
+                </p>
+            <hr />
+        </div>
+        <div id="main">
+            <form action="submit.html" method="POST">
+                <label for="name"><b>Name:</b></label>
+                <input type="text" id="name" name="name"><br /><br />
+                <label for="email"><b>Email:</b></label>
+                <input type="text" id="email" name="email"><br /><br />
+                <label for="phone"><b>Phone:</b></label>
+                <input type="text" id="email" name="email"><br /><br />
+                <label for="reasoning"><b>Reason for Inquiry:</b></label>
+                <select id="reasoning" name="reasoning">
+                    <option value="default" selected>Catering</option>
+                    <option value="privateParty">Private Party</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select><br /><br />
+                <label for="info"><b>dditional Information:</b></label>
+                <textarea id="info"></textarea><br /><br />
+                <legend><b>Have you been to the restaurant?</b>
+                <input type="radio" id="choice1" name="visited" value="no" checked="checked">
+                <label for="choice1">No</label>
+                <input type="radio" id="choice2" name="visited" value="yes">
+                <label for="choice2">Yes</label></legend><br /><br />
+                <legend><b>Best days to contact you:</b>
+                <input type="checkbox" id="monday" name="availability" value="monday">
+                <label for="monday">M</label>
+                <input type="checkbox" id="tuesday" name="availability" value="tuesday">
+                <label for="tuesday">T</label>
+                <input type="checkbox" id="wednesday" name="availability" value="wednesday">
+                <label for="wednesday">W</label>
+                <input type="checkbox" id="thursday" name="availability" value="thursday">
+                <label for="thursday">TH</label>
+                <input type="checkbox" id="friday" name="availability" value="friday">
+                <label for="friday">F</label></legend><br />
+                <input type="submit" name="submit" value="Send Request">
+            </form>
+        </div>
+        <div id="footer">
+            <footer>
+                <hr />
+                <P>866 Canyon Way, Avonde, Arizona 86023<br />928-844-7868</P>
+                <hr />
+            </footer>
+        </div>
+    </body>
+</html>
