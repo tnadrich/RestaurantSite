@@ -2,6 +2,73 @@
 <html>
     <head>
         <title>Menu</title>
+        <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+        <style>
+            body {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 16px;
+                background-color: rgba(194, 177, 128, 0.37);
+                }
+            #title {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: center;
+                }
+            #option1 {
+                position: absolute;
+                top: 150px;
+                left: 10%;
+                text-align: center;
+                width: 275px;
+            }
+            #option2 {
+                position: absolute;
+                top: 150px;
+                left: 40%;
+                text-align: center;
+                width: 275px;
+            }
+            #option3 {
+                position: absolute;
+                top: 150px;
+                left: 70%;
+                text-align: center;
+                width: 275px;
+            }
+            #option4 {
+                position: absolute;
+                top:350px;
+                left:10%;
+                text-align: center;
+                width: 275px;
+            }
+            #option5 {
+                position: absolute;
+                top:350px;
+                left:40%;
+                text-align: center;
+                width: 275px;
+            }
+            #option6 {
+                position: absolute;
+                top:350px;
+                left:70%;
+                text-align: center;
+                width: 275;
+            }
+            #beverages {
+                width: 100%;
+                position: absolute;
+                top: 550px;
+                left: 10%;
+                text-align: left;
+            }
+            th, td {
+                padding: 5px;
+                }
+            th {
+                text-decoration: underline;
+                }
+        </style>
     </head>
     <body>
         <div id="title">
@@ -17,18 +84,53 @@
             <hr />
         </div>
         <div id="main">
-            <h3>Burger and Fries</h3>
-            <p>An American Classic!<br />Your choice - with or without cheese<br />Pickle, onion, tomato, and lettuce<br />Served with our famous thick cut french fries<br />$7.95</p>
-            <h3>Tenderloin Sandwich and Chips</h3>
-            <p>Really Hits the Spot!<br />Plain or Sesame Seed Bun<br />Pickle, onion, tomato, and lettuce<br />Served with our house-made chips<br />$8.95</p>
-            <h3>Hot Dog and Chips</h3>
-            <p>A Summer Classic!<br />Your choice - white or wheat bun<br />Relish, mustard, and ketchup<br />Served with our house-made chips<br />$7.95</p>
-            <h3>House Salad</h3>
-            <p>On the Lighter Side<br />Your choice - with or without cheese<br />Iceberg lettuce, tomatoes, peppers<br />Thousand Island or Ranch Dressing<br />Served with a dinner roll<br />$6.95</p>
-            <h3>Italian Sausage and Peppers</h3>
-            <p>An All-Time Favorite!!<br />Your choice - mild or spicy<br />Cole Slaw<br />Served with garlic mashers<br />$10.95</p>
-            <h3>Brisket Sandwich and Fries</h3>
-            <p>A Taste of Texas!<br />Smoked Brisket on thick-cut Texas<br />Toast<br />Cole Slaw<br />Served with our famous thick-cut<br />french fries<br />$7.95</p>
+            <div id="option1">
+                <h3>Burger and Fries</h3>
+                <p>An American Classic!<br />Your choice - with or without cheese Pickle, onion, tomato, and lettuce Served with our famous thick cut french fries<br />$7.95</p></li>
+            </div>
+            <div id="option2">
+                <h3>Hot Dog and Chips</h3>
+                <p>A Summer Classic!<br />Your choice - white or wheat bun<br />Relish, mustard, and ketchup<br />Served with our house-made chips<br />$7.95</p>
+            </div>
+            <div id="option3">
+                <h3>Italian Sausage and Peppers</h3>
+                <p>An All-Time Favorite!!<br />Your choice - mild or spicy<br />Cole Slaw<br />Served with garlic mashers<br />$10.95</p>
+            </div>
+            <div id="option4">
+                    <h3>Tenderloin Sandwich and Chips</h3>
+                    <p>Really Hits the Spot!<br />Plain or Sesame Seed Bun<br />Pickle, onion, tomato, and lettuce<br />Served with our house-made chips<br />$8.95</p>
+                </div>
+            <div id="option5">
+                    <h3>House Salad</h3>
+                    <p>On the Lighter Side<br />Your choice - with or without cheese<br />Iceberg lettuce, tomatoes, peppers<br />Thousand Island or Ranch Dressing<br />Served with a dinner roll<br />$6.95</p>
+                </div>
+            <div id="option6">
+                <h3>Brisket Sandwich and Fries</h3>
+                <p>A Taste of Texas!<br />Smoked Brisket on thick-cut Texas<br />Toast<br />Cole Slaw<br />Served with our famous thick-cut<br />french fries<br />$7.95</p>
+            </div>
+            <div id="beverages">
+                <table>
+                    <tr>
+                        <th colspan="2">Beverages</th>
+                    </tr>
+                    <tr>
+                        <td>Root Beer</td>
+                        <td>$3.00</td>
+                    </tr>
+                    <tr>
+                        <td>Bottled Water</td>
+                        <td>$1.25</td>
+                    </tr>
+                    <tr>
+                        <td>Lemonade</td>
+                        <td>$1.00</td>
+                    </tr>
+                    <tr>
+                        <td>Iced Tea</td>
+                        <td>$1.25</td>
+                    </tr>
+                </table>
+            </div>
         </div>
         <div id="footer">
             <footer>

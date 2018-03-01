@@ -2,6 +2,30 @@
 <html>
     <head>
         <title>Contact Us</title>
+        <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+        <style>
+            body {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 16px;
+                background-color: rgba(194, 177, 128, 0.37);
+                }
+            #title {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: center;
+                }
+            #main {
+                text-align: center;
+                font-weight: bold;
+                }
+            #textleft {
+                display: inline-block;
+                text-align: left;
+                width: 450px;
+                }
+            #info {
+                vertical-align: top;
+                }
+        </style>
     </head>
     <body>
         <div id="title">
@@ -17,28 +41,29 @@
             <hr />
         </div>
         <div id="main">
+            <div id="textleft">
             <form action="submit.html" method="POST">
-                <label for="name"><b>Name:</b></label>
+                <label for="name">Name:</label>
                 <input type="text" id="name" name="name"><br /><br />
-                <label for="email"><b>Email:</b></label>
+                <label for="email">Email:</label>
                 <input type="text" id="email" name="email"><br /><br />
-                <label for="phone"><b>Phone:</b></label>
+                <label for="phone">Phone:</label>
                 <input type="text" id="email" name="email"><br /><br />
-                <label for="reasoning"><b>Reason for Inquiry:</b></label>
+                <label for="reasoning">Reason for Inquiry:</label>
                 <select id="reasoning" name="reasoning">
                     <option value="default" selected>Catering</option>
                     <option value="privateParty">Private Party</option>
                     <option value="feedback">Feedback</option>
                     <option value="other">Other</option>
                 </select><br /><br />
-                <label for="info"><b>dditional Information:</b></label>
+                <label for="info">Additional Information:</label>
                 <textarea id="info"></textarea><br /><br />
-                <legend><b>Have you been to the restaurant?</b>
+                <legend>Have you been to the restaurant?
                 <input type="radio" id="choice1" name="visited" value="no" checked="checked">
                 <label for="choice1">No</label>
                 <input type="radio" id="choice2" name="visited" value="yes">
                 <label for="choice2">Yes</label></legend><br /><br />
-                <legend><b>Best days to contact you:</b>
+                <legend>Best days to contact you:
                 <input type="checkbox" id="monday" name="availability" value="monday">
                 <label for="monday">M</label>
                 <input type="checkbox" id="tuesday" name="availability" value="tuesday">
@@ -51,6 +76,7 @@
                 <label for="friday">F</label></legend><br />
                 <input type="submit" name="submit" value="Send Request">
             </form>
+            </div>
         </div>
         <div id="footer">
             <footer>

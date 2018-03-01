@@ -1,0 +1,17 @@
+/* Common elements across all pages */
+a:visited {
+    color: red;
+    }
+a:hover {
+    font-weight: bold;
+}
+a:active {
+    text-decoration: none;
+}
+footer {
+    position:absolute;
+    bottom: 0;
+    height: 60 px;
+    width: 100%;
+    text-align: center;
+}

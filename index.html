@@ -2,6 +2,26 @@
 <html>
     <head>
         <title>Home Page</title>
+        <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+        <style>
+            body {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 16px;
+                background-color: rgba(194, 177, 128, 0.37);
+                }
+            #block {
+                display: inline-block;
+                text-align: left;
+                width: 400px;
+                }
+            #description {
+                text-align: center;
+                }
+            #title {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: center;
+                }
+        </style>
     </head>
     <body>
         <div id="title">
@@ -17,12 +37,14 @@
             <hr />
         </div>
         <div id="main">
-            <div class="image"><img src="images/canyon.jpg" alt="Photograph of the Grand Canyon" width="400" height="150"><p><a href="https://flic.kr/p/pFt5xR" target="_blank">Photograph by Tony Hisgett</a>, available by <a href="https://flic.kr/p/pFt5xR" target="_blank">CC BY-SA 2.0</a></p>
+            <div class="image" style="display: block; text-align: center;"><img src="images/canyon.jpg" alt="Photograph of the Grand Canyon" width="400" height="150"><p><a href="https://flic.kr/p/pFt5xR" target="_blank">Photograph by Tony Hisgett</a>, available by <a href="https://flic.kr/p/pFt5xR" target="_blank">CC BY-SA 2.0</a></p>
             </div>
             <div id="description">
-                <p>Restaurant Description<br />The American Outback has been serving home-style American food since 1982. We started as a small family
+                <div id="block">
+                    <p>Restaurant Description<br />The American Outback has been serving home-style American food since 1982. We started as a small family
                      business and specialize in providing good food at great prices. Come visit us today!
-                </p>
+                    </p>
+                </div>
             </div>
         </div>
         <div id="footer">
